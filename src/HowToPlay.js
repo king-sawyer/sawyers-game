@@ -1,11 +1,12 @@
 import React from "react";
 import RenderCharacters from "./renderCharacters";
 import data from "./CharacterData";
-import "./app.css";
-export default function App() {
+export default function HowToPlay() {
   return (
     <div className="App">
-      <h1>Blood on the Clocktower</h1> <RenderCharacters data={data} />
+      <div className="howTo">
+        The players are divided into two teams. One evil team and one good team
+      </div>
     </div>
   );
 }

@@ -1,0 +1,27 @@
+.characterUL {
+  list-style-type: none;
+  margin-left: -20px;
+  display: block;
+}
+.characterLI {
+  display: block;
+  margin: 0 auto;
+  font-size: 5vw;
+  padding: 15px 5px 15px 5px;
+}
+.renderCharacter {
+  padding: 2%;
+}
+.select {
+  width: 160px;
+  height: 40px;
+  font-size: larger;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 6vw;
+  text-align: center;
+}
